@@ -8,7 +8,7 @@ import recettes
 
 # TODO: Définissez vos fonction ici
 def comparateur(fichier1, fichier2):
-    j = "copie"
+    j = "copie".join(fichier)
     with open(fichier1, "r") as f1, open(fichier2, "r") as f2:
         for index, line in enumerate(f1):
             ligne = f2.readline()
