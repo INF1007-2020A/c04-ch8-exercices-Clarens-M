@@ -16,5 +16,5 @@ def comparateur(fichier1, fichier2):
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-
+    
     pass
