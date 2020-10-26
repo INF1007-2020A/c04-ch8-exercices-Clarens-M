@@ -31,4 +31,6 @@ def triple_espace(fichier):
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparateur("exemple.txt", "exemple.txt")
+
+    triple_espace
     pass
