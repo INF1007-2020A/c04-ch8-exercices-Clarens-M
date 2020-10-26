@@ -22,7 +22,8 @@ def comparateur(fichier1, fichier2):
 def triple_espace(fichier):
     with open(fichier, "r") as f, open("copie.txt", "w") as c:
         for line in f:
-            if " " in line:
+            for elem in line:
+                
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
