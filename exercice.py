@@ -24,7 +24,8 @@ def triple_espace(fichier):
         for line in f:
             for elem in line:
                 c.write(elem)
-                if elem == " "
+                if elem == " ":
+                    c.write("  ")
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
