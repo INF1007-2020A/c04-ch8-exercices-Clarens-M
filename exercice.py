@@ -14,6 +14,8 @@ def comparateur(fichier1, fichier2):
             if line != ligne:
                 print(f"Les fichiers sont différents à la ligne {index + 1}")
                 a = str(input("Voulez-vous afficher les lignes? dites OUI ou NON: "))
+                if a == "OUI":
+                    print
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
