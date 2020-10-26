@@ -19,6 +19,8 @@ def comparateur(fichier1, fichier2):
                     print(ligne)
                 break
 
+def tr
+
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparateur("exemple.txt", "exemple.txt")
