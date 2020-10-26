@@ -32,5 +32,5 @@ if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparateur("exemple.txt", "exemple.txt")
 
-    triple_espace
+    triple_espace("exemple")
     pass
