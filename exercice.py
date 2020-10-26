@@ -12,7 +12,7 @@ def comparateur(fichier1, fichier2):
     test2 = []
     with open("fichier1", "r") as f1, open("fichier2", "r") as f2:
         for line in f1:
-            for ligne in f2:
+            ligne = f2.readline()
             test1 = line
             test2 = ligne
                 if test1 != test2:
