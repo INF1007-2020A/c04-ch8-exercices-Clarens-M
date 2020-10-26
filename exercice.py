@@ -11,7 +11,8 @@ def comparateur(fichier1, fichier2):
     with open("fichier1", "r") as f1, open("fichier2", "r") as f2:
         for index, line in enumerate(f1):
             ligne = f2.readline()
-            if line != 
+            if line != ligne:
+                print(f"")
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
