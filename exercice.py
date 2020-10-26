@@ -8,12 +8,10 @@ import recettes
 
 # TODO: Définissez vos fonction ici
 def comparateur(fichier1, fichier2):
-    test1 = []
-    test2 = []
     with open("fichier1", "r") as f1, open("fichier2", "r") as f2:
         for line in f1:
             ligne = f2.readline()
-                if line != :
+                if line != ligne:
                     return None
 
 if __name__ == '__main__':
