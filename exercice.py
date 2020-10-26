@@ -19,7 +19,7 @@ def comparateur(fichier1, fichier2):
                     print(ligne)
                 break
 
-def tr
+def triple_espace(fichier)
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
