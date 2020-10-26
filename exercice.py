@@ -12,7 +12,7 @@ def comparateur(fichier1, fichier2):
         for line in f1:
             ligne = f2.readline()
                 if line != ligne:
-                    return None
+                    print("Les fichiers sont pas exactement les mêmes à la ligne ")
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
