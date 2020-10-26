@@ -8,7 +8,7 @@ import recettes
 
 # TODO: Définissez vos fonction ici
 def comparateur(fichier1, fichier2):
-    with open(fichier1, "r") as f1, open("fichier2", "r") as f2:
+    with open(fichier1, "r") as f1, open("fichier2, "r") as f2:
         for index, line in enumerate(f1):
             ligne = f2.readline()
             if line != ligne:
@@ -20,7 +20,7 @@ def comparateur(fichier1, fichier2):
                 break
 
 def triple_espace(fichier):
-    with open(fichier, "r")
+    with open(fichier, "r") as f, open()
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
