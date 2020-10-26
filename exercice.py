@@ -17,7 +17,7 @@ def comparateur(fichier1, fichier2):
                 if a == "OUI":
                     print(line)
                     print(ligne)
-    
+                break
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
