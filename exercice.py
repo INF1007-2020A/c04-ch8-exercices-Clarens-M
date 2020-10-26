@@ -13,8 +13,8 @@ def comparateur(fichier1, fichier2):
     with open("fichier1", "r") as f1, open("fichier2", "r") as f2:
         for line in f1:
             for ligne in f2:
-                test1 = line
-                test2 = ligne
+            test1 = line
+            test2 = ligne
                 if test1 != test2:
                     return None
 
