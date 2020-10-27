@@ -45,7 +45,7 @@ def exercice4():
         elif demande == "modifier":
             recherche = str(input("Laquelle? \n"))
             nouv = str(input("Le nom ou les ingrédients? \n "))
-            
+            par = str(input("Par?"))
             if recherche in l:
                 for line in l:
                     if recherche in line:
