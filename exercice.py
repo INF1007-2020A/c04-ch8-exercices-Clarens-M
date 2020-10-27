@@ -39,9 +39,10 @@ def mention(notes):
 def exercice4():
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     recettes.print_recipe()
-    if demande == "ajouter":
+    with open()    
+        if demande == "ajouter":
             l.write(recettes.add_recipes())
-    elif demande == "modifier":
+        elif demande == "modifier":
 
 
 if __name__ == '__main__':
