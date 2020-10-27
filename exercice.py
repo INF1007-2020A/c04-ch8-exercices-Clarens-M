@@ -39,7 +39,7 @@ def mention(notes):
 
 def exercice4(file_path="./ livre.p"):
     if path.exists(file_path):
-        
+        pickle
     else:
 
     
