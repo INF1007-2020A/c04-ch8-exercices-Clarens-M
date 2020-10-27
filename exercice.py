@@ -23,11 +23,7 @@ def triple_espace(fichier):
     j = "copie".join(fichier)
     with open(fichier, "r") as f, open(j, "w") as c:
         for line in f:
-            for elem in line:
-                for ligne in c:
-                    c.write(elem)
-                    if elem == " ":
-                        c.write("  ")
+            line
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
