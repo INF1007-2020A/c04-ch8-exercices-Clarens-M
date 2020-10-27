@@ -98,4 +98,4 @@ if __name__ == '__main__':
 
     mention("notes.txt")
 
-    
+    exercice4()
