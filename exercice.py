@@ -28,8 +28,9 @@ def triple_espace(fichier):
 def mention(notes, baremeA, baremeB):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
         for line in n:
-            m.write(line)
             
+            m.write(line)
+
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
