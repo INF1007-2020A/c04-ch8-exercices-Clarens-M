@@ -33,6 +33,7 @@ def mention(notes):
             for key, value in PERCENTAGE_TO_LETTER.items():
                 if value[0] <= int(elem) and int(elem) < value[1]:
                     m.write(elem + " " + key)
+                    #
 
     pass            
 
