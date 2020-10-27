@@ -27,7 +27,7 @@ def triple_espace(fichier):
 
 def mention(notes):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
-        for line in n:
+        
 
     pass            
 
