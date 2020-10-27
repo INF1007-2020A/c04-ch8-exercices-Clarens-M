@@ -36,7 +36,6 @@ def mention(notes):
                     #faut rajouter un break pour rendre le programme plus efficace
                     break
 
-    pass            
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
