@@ -50,7 +50,8 @@ def exercice4():
                 for line in l:
                     if recherche in line:
                         if nouv == "Le nom":
-                            line.replace(recherche)
+                            line.replace(recherche, nouv)
+                        elif nouv == ""
 
 
 if __name__ == '__main__':
