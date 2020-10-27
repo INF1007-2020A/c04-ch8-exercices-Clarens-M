@@ -30,7 +30,8 @@ def mention(notes, baremeA, baremeB):
         for line in n:
             if line >= baremeA:
                 m.write(line+ ", A")
-            elif line >= baremeB and line < baremeA
+            elif line >= baremeB and line < baremeA:
+                m.write(line + ", B")
 
 
 if __name__ == '__main__':
