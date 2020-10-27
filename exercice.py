@@ -97,5 +97,6 @@ if __name__ == '__main__':
     triple_espace("exemple.txt")
 
     mention("notes.txt")
+
     
     pass
