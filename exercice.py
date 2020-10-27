@@ -53,7 +53,8 @@ def exercice4():
                             line.replace(recherche, nouv)
                         elif nouv == "Les ingrédients":
                             line.write("{" + recherche + ": " + par + "}")
-        elif demande == "su"
+        elif demande == "supprimer":
+            recherche == str
 
 
 if __name__ == '__main__':
