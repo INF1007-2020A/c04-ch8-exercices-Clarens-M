@@ -55,7 +55,7 @@ def exercice4(file_path="./ livre.p"):
         else:
             print("Mauvais choix")
 
-    
+    pickle.dump(recette)
 
 
 
