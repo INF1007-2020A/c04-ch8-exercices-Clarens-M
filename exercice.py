@@ -46,7 +46,7 @@ def exercice4(file_path="./ livre.p"):
         demande = str(input("Souhaitez-vous \n (A)jouter, \n (M)odifier ou \n (S)upprimer des recettes? \n"))
         if demande == "quitter":
             return "Bon choix"
-##
+        elif demande == "A"
 
 
 #    with open("livre_de_recettes.txt", "r") as L:
