@@ -47,7 +47,7 @@ def exercice4(file_path="./ livre.p"):
         if demande == "quitter":
             return "Bon choix"
         elif demande == "A":
-
+            
         elif demande == "M":
 
         elif demande == "S":
