@@ -44,7 +44,7 @@ def exercice4():
             l.write(recettes.add_recipes())
         elif demande == "modifier":
             recherche = str(input("Laquelle? \n"))
-            nouv = str(input("L"))
+            nouv = str(input("Le nom"))
             if recherche in l:
                 for line in l:
                     if recherche in line:
