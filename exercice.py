@@ -52,7 +52,7 @@ def exercice4(file_path="./ livre.p"):
             recette = recettes.add_recipes(recette)
         elif demande == "S":
             nom = str(input("Laquelle? \n"))
-            efface(nom)
+            efface(nom, recette)
         else:
             print("Mauvais choix")
 
@@ -97,4 +97,5 @@ if __name__ == '__main__':
     triple_espace("exemple.txt")
 
     mention("notes.txt")
+    
     pass
