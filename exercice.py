@@ -39,9 +39,9 @@ def mention(notes):
 def exercice4():
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     recettes.print_recipe()
-    if demande == ""
-    with open("livre_de_recettes.txt", "w") as l:
-        
+    if demande == "ajouter":
+        with open("livre_de_recettes.txt", "w") as l:
+            
 
 
 if __name__ == '__main__':
