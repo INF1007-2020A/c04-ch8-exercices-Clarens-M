@@ -23,7 +23,9 @@ def triple_espace(fichier):
     j = "copie".join(fichier)
     with open(fichier, "r") as f, open(j, "w") as c:
         for line in f:
-            line
+            line.replace(" ", "   ")
+
+
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
