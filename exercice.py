@@ -40,7 +40,8 @@ def mention(notes):
 def exercice4(file_path="./ livre.p"):
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     if demande == "quitter":
-        print("")
+        print("Bon choix")
+        
     with open("livre_de_recettes.txt", "r") as L:
         lignes = L.read().splitlines()
 #    with open("livre_de_recettes.txt", "w") as l:    
