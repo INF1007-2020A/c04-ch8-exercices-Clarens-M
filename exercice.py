@@ -38,6 +38,7 @@ def mention(notes):
 
 def exercice4():
     dico = {}
+    recettes.add_recipes(dico)
 
 
 if __name__ == '__main__':
