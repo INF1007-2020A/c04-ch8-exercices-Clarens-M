@@ -46,7 +46,7 @@ def exercice4():
             recherche = str(input("Laquelle? \n"))
             if recherche in l:
                 for line in l:
-                    
+                    if recherche
 
 
 if __name__ == '__main__':
