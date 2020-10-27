@@ -37,7 +37,7 @@ def mention(notes):
 
 
 def exercice4():
-    
+    dico = {}
 
 
 if __name__ == '__main__':
