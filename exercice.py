@@ -39,7 +39,8 @@ def mention(notes):
 def exercice4():
     dico = {}
     recettes.add_recipes(dico)
-    with open("livre_de_recettes.txt", w )
+    with open("livre_de_recettes.txt", "w") as l:
+        l.w
 
 
 if __name__ == '__main__':
