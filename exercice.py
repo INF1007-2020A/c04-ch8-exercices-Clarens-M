@@ -6,7 +6,7 @@ PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80
 # TODO: Importez vos modules ici
 import recettes
 import pickle
-from os import pat
+from os import path
 # TODO: Définissez vos fonction ici
 def comparateur(fichier1, fichier2):
     with open(fichier1, "r") as f1, open(fichier2, "r") as f2:
