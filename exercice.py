@@ -47,7 +47,7 @@ def exercice4():
             if recherche in l:
                 for line in l:
                     if recherche in line:
-                        lin
+                        line.replace(recherche)
 
 
 if __name__ == '__main__':
