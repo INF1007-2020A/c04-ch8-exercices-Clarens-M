@@ -62,7 +62,8 @@ def efface(nom):
     if nom in recette:
         del recette[nom]
         print("Supprimée")
-    el
+    else:
+        print("")
     
 
 #    with open("livre_de_recettes.txt", "r") as L:
