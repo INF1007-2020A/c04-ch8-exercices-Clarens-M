@@ -52,8 +52,7 @@ def exercice4(file_path="./ livre.p"):
 
         elif demande == "S":
 
-        else:
-            
+
 
 
 #    with open("livre_de_recettes.txt", "r") as L:
