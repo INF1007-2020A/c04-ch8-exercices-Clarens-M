@@ -61,7 +61,8 @@ def exercice4(file_path="./ livre.p"):
 def efface(nom):
     if nom in recette:
         del recette[nom]
-        
+        print("Supprimée")
+    
     
 
 #    with open("livre_de_recettes.txt", "r") as L:
