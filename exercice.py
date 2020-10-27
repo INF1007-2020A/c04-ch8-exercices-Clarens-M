@@ -60,8 +60,9 @@ def exercice4(file_path="./ livre.p"):
 
 def efface(nom, truc):
     if nom in truc:
-        del recette[nom]
+        del truc[nom]
         print("Supprimée")
+        return 
     else:
         print("Il serait compliquer de supprimer ce qui n'est pas")
     
