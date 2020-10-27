@@ -44,7 +44,7 @@ def exercice4(file_path="./ livre.p"):
         recette = {}
     while True:
         demande = str(input("Souhaitez-vous \n (A)jouter, \n (M)odifier ou \n (S)upprimer des recettes? \n"))
-    if demande == "quitter":
+        if demande == "quitter":
         return "Bon choix"
     with open("livre_de_recettes.txt", "r") as L:
         lignes = L.read().splitlines()
