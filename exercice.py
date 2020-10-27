@@ -37,7 +37,7 @@ def mention(notes):
 
 
 def exercice4():
-    demande = str(input(""))""
+    demande = str(input("Sou"))
     recettes.print_recipe()
     with open("livre_de_recettes.txt", "w") as l:
         
