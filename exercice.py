@@ -40,7 +40,7 @@ def exercice4():
     dico = {}
     recettes.print_recipe()
     with open("livre_de_recettes.txt", "w") as l:
-        l.w
+        
 
 
 if __name__ == '__main__':
