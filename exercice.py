@@ -54,7 +54,7 @@ def exercice4():
                         elif nouv == "Les ingrédients":
                             line.write("{" + recherche + ": " + par + "}")
         elif demande == "supprimer":
-            recherche == str
+            recherche == str(input())
 
 
 if __name__ == '__main__':
