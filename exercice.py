@@ -41,7 +41,7 @@ def exercice4():
     recettes.print_recipe()
     if demande == "ajouter":
         with open("livre_de_recettes.txt", "w") as l:
-            
+            l.write()
 
 
 if __name__ == '__main__':
