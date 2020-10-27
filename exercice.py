@@ -49,6 +49,7 @@ def exercice4():
             if recherche in l:
                 for line in l:
                     if recherche in line:
+                        if nouv == "Le nom"
                         line.replace(recherche)
 
 
