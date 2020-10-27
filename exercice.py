@@ -56,7 +56,8 @@ def exercice4():
         elif demande == "supprimer":
             recherche == str(input("Laquelle? "))
             if recherche in l:
-                for line in l 
+                for line in l:
+                    if recherche in line:
 
 
 if __name__ == '__main__':
