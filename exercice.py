@@ -36,7 +36,7 @@ def mention(notes):
                     break
 
 
-def exercice4(recette=str()):
+def exercice4(recette=str(in)):
 
 
 if __name__ == '__main__':
