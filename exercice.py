@@ -30,7 +30,8 @@ def mention(notes):
         liste = n.readlines()
 
         for elem in liste:
-            for key, value in PERCENTAGE_TO_LETTER.items
+            for key, value in PERCENTAGE_TO_LETTER.items():
+                if value[]
 
     pass            
 
