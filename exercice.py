@@ -49,7 +49,7 @@ def exercice4(file_path="./ livre.p"):
         elif demande == "A":
             recette = recettes.add_recipes(recette)
         elif demande == "M":
-
+            recette = te
         elif demande == "S":
 
 
