@@ -52,7 +52,8 @@ def exercice4(file_path="./ livre.p"):
             recette = recettes.add_recipes(recette)
         elif demande == "S":
             pass
-        
+        else:
+            print()
 
 
 
