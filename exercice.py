@@ -42,25 +42,25 @@ def exercice4():
     recettes.print_recipe()
     with open("livre_de_recettes.txt", "r") as L:
         lignes = L.read().splitlines()
-    with open("livre_de_recettes.txt", "w") as l:    
-        if demande == "ajouter":
-            l.write(recettes.add_recipes())
-        elif demande == "modifier":
-            recherche = str(input("Laquelle? \n"))
-            nouv = str(input("Le nom ou les ingrédients? \n "))
-            par = str(input("Par?"))
-            if recherche in l:
-                for line in l:
-                    if recherche in line:
-                        if nouv == "Le nom":
-                            line.replace(recherche, nouv)
-                        elif nouv == "Les ingrédients":
-                            line.write("{" + recherche + ": " + par + "}")
-        elif demande == "supprimer":
-            recherche == str(input("Laquelle? "))
-            if recherche in l:
-                for line in l:
-                    if recherche in line:
+#    with open("livre_de_recettes.txt", "w") as l:    
+#        if demande == "ajouter":
+#            l.write(recettes.add_recipes())
+#        elif demande == "modifier":
+#            recherche = str(input("Laquelle? \n"))
+#            nouv = str(input("Le nom ou les ingrédients? \n "))
+#            par = str(input("Par?"))
+#            if recherche in l:
+#                for line in l:
+#                    if recherche in line:
+#                        if nouv == "Le nom":
+#                            line.replace(recherche, nouv)
+#                        elif nouv == "Les ingrédients":
+#                            line.write("{" + recherche + ": " + par + "}")
+#        elif demande == "supprimer":
+#            recherche == str(input("Laquelle? "))
+#            if recherche in l:
+#                for line in l:
+#                    if recherche in line:
 #                        pass
 
 
