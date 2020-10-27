@@ -22,7 +22,7 @@ def comparateur(fichier1, fichier2):
 def triple_espace(fichier):
     with open(fichier, "r") as f, open("triple.txt", "w") as c:
         for line in f:
-            c.writeline.replace(" ", "   ")
+            c.write(line.replace(" ", "   ")
 
 def mention(notes):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
