@@ -51,7 +51,8 @@ def exercice4():
                     if recherche in line:
                         if nouv == "Le nom":
                             line.replace(recherche, nouv)
-                        elif nouv == ""
+                        elif nouv == "Les ingrédients":
+                            
 
 
 if __name__ == '__main__':
