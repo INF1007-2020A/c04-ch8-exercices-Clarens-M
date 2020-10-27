@@ -42,4 +42,6 @@ if __name__ == '__main__':
     comparateur("exemple.txt", "exemple.txt")
 
     triple_espace("exemple.txt")
+
+    mention()
     pass
