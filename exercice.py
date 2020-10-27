@@ -31,7 +31,8 @@ def mention(notes):
 
         for elem in liste:
             for key, value in PERCENTAGE_TO_LETTER.items():
-                if value[0] <= int(elem) and int(elem) <
+                if value[0] <= int(elem) and int(elem) < value[1]:
+                    
 
     pass            
 
