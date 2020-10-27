@@ -26,7 +26,7 @@ def triple_espace(fichier):
 
 def mention(notes):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
-        liste = n.readlines()
+        liste = n.read().splitlines()
 
         for elem in liste:
             for key, value in PERCENTAGE_TO_LETTER.items():
