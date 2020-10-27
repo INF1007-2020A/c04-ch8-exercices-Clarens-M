@@ -42,7 +42,8 @@ def exercice4():
     if demande == "ajouter":
         with open("livre_de_recettes.txt", "w") as l:
             l.write(recettes.add_recipes())
-    elif demande == 
+    elif demande == "modifier":
+        with open("")
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
