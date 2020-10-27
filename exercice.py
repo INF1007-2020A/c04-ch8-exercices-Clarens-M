@@ -39,9 +39,9 @@ def mention(notes):
 
 def exercice4(file_path="./ livre.p"):
     if path.exists(file_path):
-        pickle.load(open(file_path, "rb"))
+        recette = pickle.load(open(file_path, "rb"))
     else:
-        
+        recette = {}
     
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     if demande == "quitter":
