@@ -43,7 +43,7 @@ def exercice4():
         if demande == "ajouter":
             l.write(recettes.add_recipes())
         elif demande == "modifier":
-            
+            recherche = str(input("Laquelle"))
 
 
 if __name__ == '__main__':
