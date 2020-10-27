@@ -38,7 +38,7 @@ def mention(notes):
 
 
 def exercice4(file_path="./ livre.p"):
-    if file_path
+    if path.exist(file_path)
     
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     if demande == "quitter":
