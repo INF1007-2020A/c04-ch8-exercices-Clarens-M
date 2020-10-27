@@ -29,7 +29,7 @@ def mention(notes, baremeA, baremeB):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
         for line in n:
             if line >= baremeA:
-                m.write(line)
+                m.write(line+ ", A")
 
 
 if __name__ == '__main__':
