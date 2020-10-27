@@ -61,7 +61,7 @@ def exercice4():
             if recherche in l:
                 for line in l:
                     if recherche in line:
-                        pass
+#                        pass
 
 
 if __name__ == '__main__':
