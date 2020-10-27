@@ -20,8 +20,7 @@ def comparateur(fichier1, fichier2):
                 break
 
 def triple_espace(fichier):
-    j = "copie".join(fichier)
-    with open(fichier, "r") as f, open(j, "w") as c:
+    with open(fichier, "r") as f, open("copie.txt", "w") as c:
         for line in f:
             line.replace(" ", "   ")
 
