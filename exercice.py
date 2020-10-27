@@ -25,7 +25,7 @@ def triple_espace(fichier):
         for line in f:
             line.replace(" ", "   ")
 
-def 
+def mention():
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
