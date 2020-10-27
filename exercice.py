@@ -53,7 +53,9 @@ def exercice4(file_path="./ livre.p"):
         elif demande == "S":
             pass
         else:
-            print()
+            print("Mauvais choix")
+
+    
 
 
 
