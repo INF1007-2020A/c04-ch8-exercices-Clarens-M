@@ -58,8 +58,8 @@ def exercice4(file_path="./ livre.p"):
 
     pickle.dump(recette, open(file_path, "wb"))
 
-def efface(nom, recet):
-    if nom in recette:
+def efface(nom, truc):
+    if nom in truc:
         del recette[nom]
         print("Supprimée")
     else:
