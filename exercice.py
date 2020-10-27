@@ -42,7 +42,7 @@ def exercice4(file_path="./ livre.p"):
         recette = pickle.load(open(file_path, "rb"))
     else:
         recette = {}
-    
+    while True:
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     if demande == "quitter":
         return "Bon choix"
