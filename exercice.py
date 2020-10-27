@@ -52,7 +52,7 @@ def exercice4():
                         if nouv == "Le nom":
                             line.replace(recherche, nouv)
                         elif nouv == "Les ingrédients":
-                            line.write()
+                            line.write(recherche + "")
 
 
 if __name__ == '__main__':
