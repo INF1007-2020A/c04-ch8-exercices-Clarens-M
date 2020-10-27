@@ -58,7 +58,8 @@ def exercice4(file_path="./ livre.p"):
 
     pickle.dump(recette, open(file_path, "wb"))
 
-
+def efface(nom):
+    
 
 #    with open("livre_de_recettes.txt", "r") as L:
 #        lignes = L.read().splitlines()
