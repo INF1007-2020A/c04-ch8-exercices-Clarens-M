@@ -62,7 +62,7 @@ def efface(nom, truc):
     if nom in truc:
         del truc[nom]
         print("Supprimée")
-        return 
+        return truc
     else:
         print("Il serait compliquer de supprimer ce qui n'est pas")
     
