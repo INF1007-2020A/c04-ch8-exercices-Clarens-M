@@ -37,7 +37,7 @@ def mention(notes):
                     break
 
 
-def exercice4():
+def exercice4(filepa):
     demande = str(input("Souhaitez-vous ajouter, modifier ou supprimer des recettes? \n"))
     recettes.print_recipe()
     with open("livre_de_recettes.txt", "r") as L:
