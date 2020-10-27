@@ -25,10 +25,11 @@ def triple_espace(fichier):
         for line in f:
             line.replace(" ", "   ")
 
-def mention(notes, baremeA, baremeB):
+def mention(notes):
     with open(notes, "r") as n, open("mentions.txt", "w") as m:
         for line in n:
-            
+
+    pass            
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
